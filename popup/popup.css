@@ -1,0 +1,42 @@
+button{
+    color: black;
+    text-align: white;
+    margin: 10px;
+    display: block;
+    border: 0;
+    padding: 6px 10px;
+}
+
+.popup-wrapper{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-close{
+    position: relative;
+    cursor: pointer;
+    top: 5px;
+    left: 8px;
+}
+
+.popup-content{
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+}
+
+.popup{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100px;
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    position: relative;
+}

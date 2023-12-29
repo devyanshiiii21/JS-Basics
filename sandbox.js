@@ -31,5 +31,34 @@ paras.forEach(para => {
 para.innerText += "what the hell!"
 console.log(para);
 
-// Rewrite the text
+// overwrites the text
 para.innerText = "wtf"
+
+paras.forEach(para => {
+    para.innerText += " new text";
+    console.log(para);
+})
+
+const people = ["devv", "harry", "mary"];
+
+people.forEach(person =>{
+    error.innerHTML += `<p>${person}</p>`
+})
+
+const msg = document.querySelector('.success')
+msg.innerHTML += `<h2>"Good for you"</h2>`
+msg.setAttribute("style", "margin:50px;");
+
+
+// To add properties w/o overwriting the exiting ones
+
+console.log(msg.style);
+msg.style.color = "green";
+console.log(msg.style.color);
+
+// Add remove and toggle classes
+// .add()
+// .remove()
+// .toggle()
+// .includes()
+
